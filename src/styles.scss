@@ -1,11 +1,17 @@
 /*gloables*/
+@import 'css/icomoon/fonts.css';
 @import 'css/variables';
 @import 'css/mixins';
 /*componentes*/
+@import 'css/aside';
 @import 'css/header';
 @import 'css/footer';
+@import 'css/main';
 @import 'css/section';
 
+*{
+    box-sizing: border-box;
+}
 /*etiquetas generales*/
 body{
     background: #DADADA; 
